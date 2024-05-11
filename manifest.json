@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "ChromeExtensionDemo",
+    "version": "1.0",
+    "description": "一个简单的谷歌浏览器扩展示例",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "contextMenus"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./img/logo.png",
+            "48": "./img/logo.png",
+            "128": "./img/logo.png"
+        }
+    },
+    "icons": {
+        "16": "./img/logo.png",
+        "48": "./img/logo.png",
+        "128": "./img/logo.png"
+    }
+}
